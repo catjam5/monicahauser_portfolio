@@ -1,0 +1,190 @@
+/*
+Theme Name:   Skillcrushstarter Child
+Theme URI:    http://monicahauser.com/skillcrushstarter-child/
+Description:  Skillcrushstarter Child Theme - Skillcrushstarter
+Author:       Monica Hauser
+Author URI:   http://monicahauser.com
+Template:     skillcrushstarter
+Version:      1.0.0
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+@import url("../skillcrushstarter/style.css");
+    
+/*Contact Form*/
+#ninja_forms_field_1_div_wrap {
+    float: left;
+    width: 47%;
+    margin-right: 35px;
+}
+#ninja_forms_field_2_div_wrap {
+    float: left;
+    width: 47%;
+}
+
+h2 {
+    font-family:"Montserrat";
+    font-weight: bold;
+    font-size: 25px;
+}
+#ninja_forms_field_1_label {
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+#ninja_forms_field_2_label {
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+#ninja_forms_field_3_label {
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+#ninja_forms_field_4_label {
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+#ninja_forms_field_5_label {
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+#ninja-forms-required-items {
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+#nf_submit_1 {
+    background-color: #45ac9d;
+    border: none;
+    margin-top: 20px;
+}
+#nf_submit_1 input#ninja_forms_field_5  {
+    border: none;
+    background-color: #45ac9d;
+    width: 189px;
+    height: 43px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    float:right;
+}
+/*Portfolio Page*/
+#primary {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1250px;
+}
+
+article.portfolio_page {
+    font-family: 'Open Sans';
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    width: 500px;
+    margin-top: 30px;
+/*    margin-left: auto;
+    margin-right: auto; */
+}
+
+/*#services h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+#services p {
+    font-size: 16px;
+}
+
+#content-strategy .content-text {
+    float: right;
+    width: 575px;
+    margin-top: 16px;
+}
+#content-strategy .content-image {
+    float: left;
+    width: 275px;
+}
+#content-strategy .content-image img {
+    margin-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#influencer-mapping .influencer-text {
+    float: left;
+    width: 575px;
+    margin-top: 16px;
+}
+#influencer-mapping .influencer-image {
+    float: right;
+    width: 275px;
+}
+#influencer-mapping .influencer-image img {
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#social-media-strategy .social-text {
+    float: right;
+    width: 575px;
+    margin-top: 16px;
+}
+#social-media-strategy .social-image {
+    float: left;
+    width: 275px;
+}
+#social-media-strategy .social-image img {
+    margin-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#design-development .design-text {
+    float: left;
+    width: 575px;
+    margin-top: 16px;
+}
+#design-development .design-image {
+    float: right;
+    width: 275px;
+}
+#design-development .design-image img {
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+article.about-accelerate h5 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 24px;
+}
+#about-footer {
+    border-top-color: #e3e1e1;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-footer .contact-message {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+#about-footer .contact-message strong {
+    font-size: 24px;
+    padding-right: 2em;
+    align: left;
+}
+#about-footer .contact-message .button {
+    align: right;
+    font-weight: 400;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
